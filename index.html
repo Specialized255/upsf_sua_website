@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="University Pentecostal Students' Fellowship (UPSF), SUA Morogoro. Acts 1:8.">
+  <title>UPSF - University Pentecostal Students' Fellowship</title>
+  <style>
+    :root{--green:#0F5226;--red:#C00000;--orange:#FF6600;--bg:#F8F9FA;--text:#333}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:var(--green);color:#fff;text-align:center;padding:28px 18px;border-bottom:5px solid var(--red)}
+    header img{width:115px;height:115px;object-fit:contain;border-radius:50%;background:#fff;padding:5px}
+    header h1{font-size:clamp(1.35rem,3vw,2.2rem);line-height:1.25;margin:14px auto 8px;max-width:950px}
+    nav{position:sticky;top:0;z-index:10;background:#292929;padding:12px 10px;display:flex;justify-content:center;gap:8px 22px;flex-wrap:wrap}
+    nav a{color:white;text-decoration:none;font-weight:bold;font-size:.95rem}
+    nav a:hover{color:#ff9b50}
+    .hero{max-width:1100px;margin:24px auto 0;padding:0 16px}
+    .hero img{width:100%;max-height:440px;object-fit:cover;border-radius:12px;display:block}
+    .container{max-width:1000px;margin:22px auto;padding:28px;background:#fff;border-radius:12px;box-shadow:0 4px 18px #0000000d}
+    h2{color:var(--green);border-bottom:2px solid var(--red);padding-bottom:7px}
+    .timetable-box,.about-box{background:#f1f8f5;border-left:5px solid var(--green);padding:16px 18px;margin:15px 0;border-radius:4px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px;margin:20px 0}
+    .gallery img{width:100%;height:250px;object-fit:cover;border-radius:8px;border:2px solid var(--green)}
+    form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+    .field{min-width:0}
+    .field.full{grid-column:1/-1}
+    label{display:block;font-weight:bold;color:var(--green);margin-bottom:6px}
+    input,select,textarea{width:100%;padding:12px;border:1px solid #c9c9c9;border-radius:6px;font:inherit;background:#fff}
+    input:focus,select:focus,textarea:focus{outline:2px solid #7aa98a;border-color:var(--green)}
+    button{background:var(--red);color:#fff;padding:13px 20px;border:0;border-radius:6px;font-size:1rem;cursor:pointer;font-weight:bold}
+    button:hover{background:#900000}
+    .submit{grid-column:1/-1}
+    .note{font-size:.94rem;color:#555}
+    footer{text-align:center;padding:22px 15px;background:var(--green);color:white;margin-top:30px}
+    @media(max-width:640px){.container{margin:14px 10px;padding:20px 16px}form{grid-template-columns:1fr}.field.full,.submit{grid-column:auto}nav{gap:8px 14px}nav a{font-size:.88rem}.gallery img{height:220px}}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/upsf-logo.jpg" alt="UPSF logo">
+    <h1>UNIVERSITY PENTECOSTAL STUDENTS' FELLOWSHIP (UPSF)</h1>
+    <p><i>Acts 1:8</i> | Email: <a href="mailto:upsfsua@gmail.com" style="color:white">upsfsua@gmail.com</a></p>
+  </header>
+  <nav>
+    <a href="#ratiba">Ratiba ya Ibada</a>
+    <a href="#about">Kuhusu Sisi</a>
+    <a href="#picha">Matukio</a>
+    <a href="#usajili">Jisajili Sasa</a>
+  </nav>
+  <div class="hero"><img src="assets/worship.jpg" alt="Wanafunzi wakiwa kwenye ibada ya UPSF"></div>
+  <main class="container">
+    <section id="ratiba">
+      <h2>Ratiba ya Ibada</h2>
+      <div class="timetable-box">
+        <p><strong>Muda Mkuu:</strong> Ibada zetu zinafanyika kila siku kuanzia Jumatatu mpaka Jumapili, saa 12:45 jioni mpaka saa 2:00 usiku, katika maeneo yote ambayo tunapatikana kwa ajili ya ibada.</p>
+        <ul>
+          <li><strong>SUA (Mazimbu Campus):</strong> SLT 6</li>
+          <li><strong>SUA (EMC):</strong> MLT 2</li>
+          <li><strong>SUA (Mizengo Pinda):</strong> Lecture Room 4</li>
+        </ul>
+        <p><em>Vipindi:</em> Neno la Mungu, sifa na kuabudu, ushirika wa pamoja, maswali na majibu pamoja na mijadala.</p>
+      </div>
+    </section>
+    <section id="about">
+      <h2>Kuhusu Sisi (Historia)</h2>
+      <div class="about-box">
+        <p>UPSF ilianzishwa mwaka <strong>2003</strong> kwa lengo la kuwaleta wanafunzi pamoja, kukua kiroho, na kuendeleza huduma za kila mmoja. Ni sehemu muhimu ya kukua kihuduma na kukuza karama za kila mmoja.</p>
+      </div>
+    </section>
+    <section id="picha">
+      <h2>Matukio na Picha za Huduma</h2>
+      <div class="gallery">
+        <img src="assets/worship.jpg" alt="Wanafunzi kwenye ibada">
+        <img src="assets/fellowship.jpg" alt="Wanafunzi wa UPSF kwenye ukumbi">
+      </div>
+    </section>
+    <section id="usajili">
+      <h2>Fomu ya Usajili wa Mwanachama Mpya</h2>
+      <p>Jaza fomu hii ili kujiunga rasmi na ushirika wetu wa UPSF.</p>
+      <p class="note">Fomu hii itakusanya majibu kupitia Netlify Forms baada ya tovuti ku-deployiwa na Forms kuzimwa/kuthibitishwa kwenye dashboard. Taarifa nyeti za wanachama zinapaswa kufikiwa na wasimamizi walioidhinishwa pekee.</p>
+      <form name="upsf-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data">
+        <input type="hidden" name="form-name" value="upsf-registration">
+        <p hidden><label>Usijaze sehemu hii: <input name="bot-field"></label></p>
+        <div class="field"><label for="firstname">First Name</label><input id="firstname" type="text" name="firstname" autocomplete="given-name" required></div>
+        <div class="field"><label for="surname">Surname</label><input id="surname" type="text" name="surname" autocomplete="family-name" required></div>
+        <div class="field"><label for="regnumber">Registration Number</label><input id="regnumber" type="text" name="regnumber" required></div>
+        <div class="field"><label for="campus">Campus</label><select id="campus" name="campus" required><option value="SUA Main">SUA Main Campus</option><option value="SUA Mazimbu">SUA Mazimbu Campus</option><option value="SUA Mizengo Pinda">SUA Mizengo Pinda Campus</option><option value="SUA EMC">SUA EMC Campus</option></select></div>
+        <div class="field"><label for="phone">Phone Number</label><input id="phone" type="tel" name="phone" autocomplete="tel" required></div>
+        <div class="field"><label for="email">Email Address</label><input id="email" type="email" name="email" autocomplete="email" required></div>
+        <div class="field"><label for="marital_status">Marital Status</label><select id="marital_status" name="marital_status"><option value="Single">Single</option><option value="Engaged">Engaged</option><option value="Married">Married</option></select></div>
+        <div class="field"><label for="passport_photo">Passport Size Image</label><input id="passport_photo" type="file" name="passport_photo" accept="image/*" required></div>
+        <div class="field"><label for="salvation_date">Date of Salvation</label><input id="salvation_date" type="date" name="salvation_date"></div>
+        <div class="field"><label for="holy_spirit">Filled with the Holy Spirit and speak in new tongues?</label><select id="holy_spirit" name="holy_spirit"><option value="">Select</option><option value="Yes">Yes</option><option value="No">No</option><option value="Prefer not to say">Prefer not to say</option></select></div>
+        <div class="field full"><label for="baptism">Have you been baptized by immersion?</label><select id="baptism" name="baptism"><option value="">Select</option><option value="Yes">Yes</option><option value="No">No</option></select></div>
+        <div class="submit"><button type="submit">Wasilisha Usajili (Submit)</button></div>
+      </form>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 University Pentecostal Students' Fellowship (UPSF) - SUA Morogoro. All Rights Reserved.</p></footer>
+</body>
+</html>
